@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "firstName": "Meghraj",
+      "DOB": "1999-01-01",
+      "addresses": [
+        {
+          "type": "pem",
+          "flatno": 104,
+          "street": "gandhinagar",
+          "city": "hyderabad"
+        },
+        {
+          "type": "current",
+          "flatno": 104,
+          "street": "gandhinagar",
+          "city": "hyderabad"
+        }
+      ],
+      "skills": [
+        "java",
+        "devops",
+        "python"
+      ]
+    },
+    
+    {
+      "firstName": "Nagraj",
+      "DOB": "1999-01-01",
+      "addresses": [
+        {
+          "type": "pem",
+          "flatno": 104,
+          "street": "gandhinagar",
+          "city": "hyderabad"
+        },
+        {
+          "type": "current",
+          "flatno": 104,
+          "street": "gandhinagar",
+          "city": "hyderabad"
+        }
+      ],
+      "skills": [
+        "java",
+        "devops",
+        "python"
+      ]
+    }
+
+  ]
+}

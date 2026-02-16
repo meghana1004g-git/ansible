@@ -1,0 +1,33 @@
+
+- name: "meghana"
+  dob: "1999-01-01"
+  mobilenumber: 7674831325
+  addresses:
+   - flatnumber: "104"
+     street: "gandhinagar"
+     city: hyderabad
+     type: current
+
+   - flatnumber: "104"
+     street: gandhinagar
+     city: hyderabad
+     type: perm
+
+
+
+- name: "nagaraju"
+  dob: "1999-01-01"
+  mobilenumber: 7674831325
+  addresses:
+   - flatnumber: "104"
+     street: "gandhinagar"
+     city: hyderabad
+     type: current
+
+   - flatnumber: "104"
+     street: gandhinagar
+     city: hyderabad
+     type: perm
+
+
+

@@ -1,0 +1,51 @@
+<!-- Student Object -->
+<Students>
+<student>
+<FirstName>Meghana</FirstName>
+<DOB>1999-01-01</DOB>
+<E-mal>info@joindevops.com</E-mail>
+<!-- <Address>104 gandhi apartments hyderabad</Address> -->
+<!-- <Address>
+     <FlatNo>104</FlatNo>
+  <Street>Gandhinagar</Street>
+     <Steet>gandhinagar</Street>
+     <City>hyderabad</City> -->
+      <!-- </Address> --> 
+      <Addresess>
+        <PerAddress>
+          <FlatNo>104</FlatNo>
+          <Street>gandhinagar</Street>
+          <City>hyderabad</City>
+        </PerAddress>
+        <CurrentAddress>
+           <FlatNo>104</FlatNo>
+           <Street>gandhinagar</Street>
+           <City>hyderabad</City>
+        </CurrentAddress>
+       </Addresess>
+</student>
+
+<student>
+<FirstName>Nagaraju</FirstName>
+<DOB>1999-01-01</DOB>
+<E-mal>info@joindevops.com</E-mail>
+<!-- <Address>104 gandhi apartments hyderabad</Address> -->
+<!-- <Address>
+     <FlatNo>104</FlatNo>
+  <Street>Gandhinagar</Street>
+     <Steet>gandhinagar</Street>
+     <City>hyderabad</City> -->
+      <!-- </Address> --> 
+      <Addresess>
+        <PerAddress>
+          <FlatNo>104</FlatNo>
+          <Street>gandhinagar</Street>
+          <City>hyderabad</City>
+        </PerAddress>
+        <CurrentAddress>
+           <FlatNo>104</FlatNo>
+           <Street>gandhinagar</Street>
+           <City>hyderabad</City>
+        </CurrentAddress>
+       </Addresess>
+</student>
