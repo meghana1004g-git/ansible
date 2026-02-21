@@ -11,7 +11,7 @@
     private: false
   tasks:
   - name: print name
-    vars:
+    # vars:
     #  NAME: "Ansible from task"
     ansible.builtin.debug:
      msg: "Hi {{ NAME }}"
@@ -19,4 +19,5 @@
 
 # 1.Args
 # 2.Task
-# 3.
+# 3.Prompt
+
