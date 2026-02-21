@@ -18,6 +18,6 @@
       msg: |
         program: {{ PROGRAM }}
         duration: {{ DURATION }}
-        Is_live?: {{ LIVE }}
+        Is_live?: {{ IS_LIVE }}
         Details: {{ DETAILS }}
         Topics: {{ TOPICS }}
