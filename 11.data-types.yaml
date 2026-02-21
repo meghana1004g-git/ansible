@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    PROGRAME: "DevSecOps with AWS"  #string
+    PROGRAM: "DevSecOps with AWS"  #string
     DURATION: 140  #int/number
     IS_LIVE: true #bool
     DETAILS:    #map/dictionary
