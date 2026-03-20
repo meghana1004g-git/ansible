@@ -3,7 +3,7 @@
   tasks:
   - name: print hello World
     ansible.builtin.debug:
-      msg: "Heloo world!"
+      msg: "Hello world!"
 
   - name: PLAY-2
     hosts: local
