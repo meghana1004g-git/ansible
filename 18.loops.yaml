@@ -1,0 +1,13 @@
+- name: nstall packages
+  hosts: local
+  connection: local
+  become: Yes
+  tasks:
+  - name: install package
+    ansible.builtin.package:
+      name: "{{ item.state }}"
+      state: "{{ item.state }}"
+    loop: # list
+    - { name: "mysql", state: "absent" } # map/dict
+    - { name: "mysql", state: "present" }
+    - { name: "mysql", state: "present" }
