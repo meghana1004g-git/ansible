@@ -1,7 +1,7 @@
 - name: demo on error handling
   hosts: local
   connection: local
-  become: yes
+  become:  yes
   tasks: 
   - name: check user exist or not
     ansible.builtin.command: id roboshop
@@ -13,6 +13,6 @@
       msg: "{{ user_output }}"  
 
   - name:  create user
-    ansible.builtin.command: useadd roboshop
+    ansible.builtin.command: useradd roboshop
     when: user_output.rc != 0
      
